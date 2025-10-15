@@ -817,6 +817,13 @@ display: none;
     color: #000000;
     text-decoration: none;
 }
+.seccont-add-p a {
+   font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
 .form-group label {
     color: #fff;
 }
