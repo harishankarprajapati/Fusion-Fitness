@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fusion Fitness</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- owl carousel 2 effects animation- -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet" />
+
+  <!-- Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+  <!-- Anta -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+
+  <!-- aso Animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Oswald -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+  <!-- Source Sans 3 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bebas Neue -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Parisienne&family=Phetsarath:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Racing+Sans+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+
+
+  <link rel="icon" href="images/fav-icon.png">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <div class="container-fluid haderherobg">
+    <div include-html="header.html" id="header-file"></div>
+
+    <div class="row m-0 sechesmai ">
+      <div class="col-md-8">
+        <div class="sechedmasec">
+          <h1>UNLOCK</h1>
+          <h1>YOUR</h1>
+          <h1>POTENTIAL</h1>
+        </div>
+        <div class="row m-0   secpadhebtn">
+          <div class="col-md-3">
+            <div class="secjonpavg">
+              <a href="#">Join Today </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="sectwoling">
+              <p> <img src="images/aagicon.png" alt=""> First week free. no excuses</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+
+
+
+  </div>
+  <!-- marquee  -->
+  <div class="container-fluid  p-0">
+    <header class="marquee-wrap" aria-hidden="false">
+      <div class="container-bar">
+        <!-- track contains content repeated twice for smooth loop -->
+        <div class="marquee-track" role="marquee"
+          aria-label="Scrolling words: New Videos Daily, beginners friendly, 20+ trainers , training,  FITNESS ,Strength , Live consultancy">
+          <!-- first set -->
+          <div class="marquee-item">New Videos Daily
+            <span class="marquee-star">*</span>
+          </div>
+          <div class="marquee-item">beginners friendly
+            <span class="marquee-star">*</span>
+          </div>
+          <div class="marquee-item">20+ trainers
+            <span class="marquee-star">*</span>
+          </div>
+          <div class="marquee-item"> training
+            <span class="marquee-star">*</span>
+          </div>
+          <div class="marquee-item"> FITNESS
+            <span class="marquee-star">*</span>
+          </div>
+          <div class="marquee-item"> Strength
+            <span class="marquee-star">*</span>
+          </div>
+          <div class="marquee-item"> Live consultancy
+          </div>
+
+          <!-- duplicate set (same content) to make continuous loop -->
+          <div class="repeat" aria-hidden="true" style="display:inline-flex;">
+            <div class="marquee-item">New Videos Daily
+              <span class="marquee-star">*</span>
+            </div>
+            <div class="marquee-item">beginners friendly
+              <span class="marquee-star">*</span>
+            </div>
+            <div class="marquee-item">20+ trainers
+              <span class="marquee-star">*</span>
+            </div>
+            <div class="marquee-item"> training
+              <span class="marquee-star">*</span>
+            </div>
+            <div class="marquee-item"> FITNESS
+              <span class="marquee-star">*</span>
+            </div>
+            <div class="marquee-item"> Strength
+              <span class="marquee-star">*</span>
+            </div>
+            <div class="marquee-item"> Live consultancy
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+  </div>
+  <!--Services  -->
+  <div class="container-fluid secserbmainbg">
+    <div class="secheadma">
+      <h2>Unique <span>Services</span> <br> Tailored for Your Goals</h2>
+      <p>Discover a wide range of personalized fitness services crafted to meet your unique needs, empower your journey,
+        and help you achieve your health and wellness goals with confidence.</p>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-3">
+          <a class="aescted" href="#">
+            <img class="img-fluid" src="images/serv1.png" alt="">
+            <div class="secbgser">
+              <p>Yoga</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <p class="secjiobg">Join our Yoga Program for all levels! Flow through poses with expert instructors to find
+              peace and improve
+              your health.</p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a class="aescted" href="#">
+            <img class="img-fluid" src="images/serv2.png" alt="">
+            <div class="secbgser">
+              <p>Fitness</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <p class="secjiobg">Achieve your best self with expertly designed fitness programs tailored to your goals,
+              lifestyle, and progress.</p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a class="aescted" href="#">
+            <img class="img-fluid" src="images/serv3.png" alt="">
+            <div class="secbgser">
+              <p>Strength training</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <p class="secjiobg">Build power and endurance with a focused strength training program designed to help you
+              lift, tone, and conquer your fitness goals.</p>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a class="aescted" href="#">
+            <img class="img-fluid" src="images/serv4.png" alt="">
+            <div class="secbgser">
+              <p>Zumba</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <p class="secjiobg">Get fit, burn calories, and boost energy while dancing to exciting rhythms. Zumba
+              training makes fitness fun, easy, and enjoyable.<p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- elevate your fitness journey with us -->
+  <div class="container secelevbg">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="sechedele">
+          <h2> <span> elevate your </span> fitness journey with us</h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p class="secwetext">We are dedicated to empowering individuals on their fitness journey by creating a unique
+          and professional
+          space designed to inspire, motivate, and deliver real results for every goal.</p>
+      </div>
+    </div>
+    <div class="secvideo">
+      <video controls poster="/images/videoimg.png">
+        <source src="movie.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <!-- Testimonials from our clients -->
+  <div class="container sectestbg">
+    <div class="row">
+      <div class="col-md-8 secpasdte">
+        <div class="sechedele">
+          <h2> <span> Testimonials </span> <br> from our clients</h2>
+        </div>
+        <div class="secboxbg">
+          <div class="owl-carousel sectestmai owl-theme">
+            <div class="item">
+              <img class="secvdot" src="images/Vector.png" alt="">
+              <p class="secastext">As a marketing consultant, my busy schedule made fitness a challenge, but this
+                program fit perfectly.
+                I’ve lost 15 pounds and gained muscle thanks to the expert guidance and tailored sessions.</p>
+
+              <div class="revim">
+                <div class="secreimg">
+                  <img src="images/rev-img.png" alt="">
+                </div>
+                <div class="serrevtext">
+                  <h5>Nikhil K.</h5>
+                  <p>verified client</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="item">
+              <img class="secvdot" src="images/Vector.png" alt="">
+              <p class="secastext">As a marketing consultant, my busy schedule made fitness a challenge, but this
+                program fit perfectly.
+                I’ve lost 15 pounds and gained muscle thanks to the expert guidance and tailored sessions.</p>
+
+              <div class="revim">
+                <div class="secreimg">
+                  <img src="images/rev-img.png" alt="">
+                </div>
+                <div class="serrevtext">
+                  <h5>Nikhil K.</h5>
+                  <p>verified client</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 secpasdte2">
+        <img class="img-fluid" src="images/test-img.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!--our pricing plans  -->
+  <div class="container-fluid serpribg">
+    <div class="secheadma">
+      <h2>our <span>pricing</span> plans</h2>
+      <p>Explore our flexible and affordable pricing plans, tailored to suit your fitness goals, lifestyle, and
+        commitment to a healthier you.</p>
+    </div>
+    <div class="secpricbtn">
+      <a href="#">Regular Package</a>
+    </div>
+    <div class="container table-responsive">
+      <div class="pricing-table shadow-lg">
+        <table>
+          <thead>
+            <tr>
+              <th>Single Membership</th>
+              <th>Freebie</th>
+              <th>Prices are inclusive of GST</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="sectablco" data-label="Single Membership">Admission</td>
+              <td data-label="Freebie">--</td>
+              <td data-label="Prices">₹ 699</td>
+              <td data-label=""><button class="enroll-btn">Enroll Now</button></td>
+            </tr>
+            <tr>
+              <td class="sectablco" data-label="Single Membership">Monthly</td>
+              <td data-label="Freebie">2 Steam Baths</td>
+              <td data-label="Prices">₹ 1499</td>
+              <td data-label=""><button class="enroll-btn">Enroll Now</button></td>
+            </tr>
+            <tr>
+              <td class="sectablco" data-label="Single Membership">3 Months</td>
+              <td data-label="Freebie">6 Steam Baths</td>
+              <td data-label="Prices">₹ 4999</td>
+              <td data-label=""><button class="enroll-btn">Enroll Now</button></td>
+            </tr>
+            <tr>
+              <td class="sectablco" data-label="Single Membership">6 Months</td>
+              <td data-label="Freebie">12 Steam Baths</td>
+              <td data-label="Prices">₹ 7999</td>
+              <td data-label=""><button class="enroll-btn">Enroll Now</button></td>
+            </tr>
+            <tr>
+              <td class="sectablco" data-label="Single Membership">12 Months</td>
+              <td data-label="Freebie">24 Steam Baths, 1 Massage</td>
+              <td data-label="Prices">₹ 12499</td>
+              <td data-label=""><button class="enroll-btn">Enroll Now</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Your Guide to Smarter Fitness -->
+  <div class="container secblobgain">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="sechedele">
+          <h2> Your <span> Guide </span> to <br> Smarter Fitness</h2>
+          <p class="secwetext">Stay informed and inspired with expert fitness insights, <br> nutrition tips, and workout
+            guides to fuel your journey.</p>
+        </div>
+      </div>
+      <div class="col-md-6 secbtnff">
+        <div class="secbtnbl">
+          <a href="#">View All</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row secbolpad">
+      <div class="col-md-4">
+        <div class="secblogbox">
+          <img class="img-fluid" src="images/blog-img1.png" alt="">
+          <div class="secbotebg">
+            <div class="sectextblog">
+              <h4>Top 5 Strength Training Mistakes & How to Fix Them</h4>
+            </div>
+            <div class="secbloglink">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+          <p class="secblotit">Learn the most common strength training mistakes and expert tips to correct them for better muscle growth
+            and performance.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="secblogbox">
+          <img class="img-fluid" src="images/blog-img2.png" alt="">
+          <div class="secbotebg">
+            <div class="sectextblog">
+              <h4>The Ultimate Meal Plan for Muscle Growth & Fat Lossm</h4>
+            </div>
+            <div class="secbloglink">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+          <p class="secblotit">What you eat matters! Discover the perfect meal plan to fuel your workouts, build muscle, and burn fat efficiently.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="secblogbox">
+          <img class="img-fluid" src="images/blog-img3.png" alt="">
+          <div class="secbotebg">
+            <div class="sectextblog">
+              <h4>How to Stay Motivated: Fitness Hacks from Experts</h4>
+            </div>
+            <div class="secbloglink">
+              <a href="#">Read more</a>
+            </div>
+          </div>
+          <p class="secblotit">Staying motivated is the key to success! Learn powerful mindset tricks to stay on track and achieve your fitness goals.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div include-html="footer.html" id="footer-file"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="js/include-html.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- aso  Animate -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    $('.owl-carousel.sectestmai').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

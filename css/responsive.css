@@ -1,0 +1,401 @@
+/* -------1920--------- */
+
+@media only screen and (min-width:1920px) {
+
+  .container-fluid {
+    width: 1903px;
+    margin: auto;
+  }
+
+  .secbgre {
+    margin-top: -280px;
+    position: relative;
+    z-index: 99;
+  }
+
+  .sechedmasec {
+    padding-left: 100px;
+  }
+
+  .secpadhebtn {
+    padding-left: 100px;
+  }
+
+  .sechedmasec h1 {
+    font-family: 'Bebas Neue';
+    color: #fff;
+    font-size: 220px;
+    line-height: 174px;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 30%;
+  }
+
+}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:999px) {
+  .offcanvas-header {
+    background: #3A72A8;
+  }
+
+  .navbar-nav {
+    margin: 0px !important;
+  }
+
+  button.navbar-toggler {
+    background: #3A72A8;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  #navbarOffcanvas {
+    padding-top: 0px;
+  }
+
+  .headermenusec {
+    color: #000;
+  }
+
+  .secjonpavg {
+    z-index: 998;
+    position: relative;
+  }
+
+  .secbtnmen {
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 0px !important;
+    margin-top: 0px;
+    border-radius: 10px;
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+
+
+  button.navbar-toggler {
+    background: #3A72A8;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .secheadp23 h2 {
+    font-size: 60px;
+    -webkit-text-stroke: 1px #f7f7f73d;
+  }
+
+  .secheadp22 h2 {
+    font-size: 73px;
+    padding-bottom: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1px #615f5f;
+  }
+
+  .secheadp h2 {
+    font-size: 160px;
+    line-height: 150px;
+    -webkit-text-stroke: 3px #474747;
+  }
+
+  .secfotehead h3 {
+    font-size: 70px;
+  }
+
+  .secservtext h3 {
+    font-size: 45px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .secheadp2 h2 {
+    font-size: 65px;
+    margin-left: 0px;
+    text-align: center;
+    -webkit-text-stroke: 1px #595656;
+  }
+
+  .secmarim {
+    margin-top: 0px !important;
+  }
+
+  .sechedmasec h1 {
+    font-size: 27px;
+    line-height: 16px;
+  }
+
+  .haderherobg {
+    padding-bottom: 0px;
+  }
+
+  .secbgre {
+    margin-top: 0px;
+    background-image: none;
+    background-color: #F4900C;
+  }
+
+  .overlay-text {
+    top: 12%;
+    left: 0%;
+    padding-left: 22px;
+    width: 100%;
+  }
+
+  a.navbar-brand.secmainlogo {
+    width: 40%;
+  }
+
+  .video-container {
+    margin-top: -90px;
+  }
+
+  .secpadhebtn {
+    padding-top: 10px;
+  }
+
+  .secjonpavg a {
+    font-size: 14px;
+    padding: 7px 20px;
+  }
+
+  .secpadhebtn .col-md-2 {
+    padding: 0;
+  }
+
+  .sectwoling {
+    display: none;
+  }
+
+  .controls {
+    bottom: 20px;
+    margin-top: -90px;
+  }
+
+  img#btnImage {
+    width: 40%;
+  }
+
+  .secvideo {
+    text-align: end;
+    padding-right: 0px;
+  }
+
+  .secbtnr {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .secpare {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  .secboybg {
+    width: 100%;
+  }
+
+  .daktopsec {
+    display: none;
+  }
+
+  .mobilesec {
+    display: block;
+  }
+
+  .secimgabut {
+    margin-top: -70px;
+  }
+
+  .secab2text h3 {
+    font-size: 60px;
+    line-height: 11px;
+    padding-top: 41px;
+  }
+
+  .four.col-md-3 {
+    width: 44%;
+    padding: 8px 2px;
+    border: 1px solid #575757;
+    margin: 10px;
+  }
+
+  .counter-box p {
+    font-size: 90px;
+  }
+
+  .secheadmatext {
+    font-size: 70px;
+  }
+
+  .secsermainbg {
+    padding: 40px 10px;
+  }
+
+  .secpal {
+    padding-left: 0px;
+  }
+
+  #trainingAccordion button.accordion-button {
+    font-size: 45px;
+  }
+
+  .seclopjon {
+    width: 70%;
+    padding: 20px;
+    right: 0;
+    border-radius: 20px 0px 0px 0px;
+    margin-top: -70px;
+  }
+
+  .seclopjon h3 {
+    font-size: 18px;
+  }
+
+  .codbtnsec {
+    padding: 4px;
+  }
+
+  .secpacco {
+    padding: 0px !important;
+  }
+
+  .secfacbg {
+    padding: 0px 10px 50px 10px;
+  }
+
+  .secmarim .col-md-4 {
+    padding-bottom: 30px;
+  }
+
+  .secimsgpa .col-md-6 {
+    padding-bottom: 30px !important;
+  }
+
+  .secimsgpa .col-md-5 {
+    padding-bottom: 30px !important;
+  }
+
+  .marquee-item {
+    font-size: 23px;
+  }
+
+  .secmemhed h3 {
+    font-size: 45px;
+  }
+
+  .secheadp23 {
+    padding-top: 40px;
+  }
+
+  .secpadsay {
+    padding-top: 20px;
+  }
+
+  .revslider {
+    padding-top: 20px;
+  }
+
+  .secipn {
+    font-size: 22px;
+  }
+
+  .revslider .owl-nav {
+    display: none;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+
+  .secmobno {
+    display: none;
+  }
+
+  .secheadimgli {
+    text-align: center;
+    margin-top: -44px;
+  }
+
+  .secfooterbg {
+    padding: 40px 10px;
+  }
+
+  .scmeli p a {
+    font-size: 30px;
+  }
+
+  .heaname h2 {
+    font-size: 60px;
+    padding-top: 40px;
+  }
+
+  .marrabout {
+    padding: 0px 10px 40px 10px;
+    margin-top: -10px;
+  }
+
+  .secabbdesfl {
+    flex-direction: column-reverse;
+  }
+
+  .secabouttext {
+    padding-top: 20px;
+  }
+
+  .secvisbgg {
+    padding: 40px 10px;
+  }
+
+  .secvisintext {
+    font-size: 50px;
+  }
+
+  .serv-h-pa {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  .sec-revers {
+    flex-direction: column-reverse;
+  }
+
+  .aboutbg2 {
+    height: 300px;
+  }
+
+  .sec-padde-ss {
+    padding: 0px;
+    padding-bottom: 50px;
+  }
+  .blogbgg4 {
+    padding: 30px 10px;
+}
+.secmemberbg {
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+.sec-main-div-artiv {
+    padding-bottom: 40px;
+}
+.secaetiv-h22 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+}
+.secandclass22 {
+    padding: 0px 0px 50px 0px;
+}
+}
+
+@media only screen and (max-width:430px) {}
+
+@media only screen and (max-width:380px) {}
+
+
+@media only screen and (max-width:320px) {}
